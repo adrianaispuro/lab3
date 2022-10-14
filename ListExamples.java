@@ -1,7 +1,16 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.lang.String;
 
 interface StringChecker { boolean checkString(String s); }
+
+class StringCheck implements StringChecker{
+
+  public StringCheck(){}
+
+  public boolean checkString(String s) {return s.contains("hi");}
+
+}
 
 class ListExamples {
 
