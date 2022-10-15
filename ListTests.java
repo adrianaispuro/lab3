@@ -19,9 +19,4 @@ public class ListTests {
         input2.add("hills");
         assertEquals(input2, ListExamples.filter(input1, new StringCheck()));
     }
-
-    @Test
-    public void testMerge(){
-
-    }
 }
